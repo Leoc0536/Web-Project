@@ -1,0 +1,18 @@
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.action{
+    margin: 10px;
+}
+button{
+    cursor: pointer;
+}
+.circle{
+    border: 1px solid #000000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
