@@ -24,3 +24,10 @@ function random(){
     x.style.backgroundColor = y;
     console.log(document.getElementById("colorRGB").innerHTML=`${r}, ${g}, ${b}`);
 }
+
+const value = document.querySelector("#red_num");
+const NUM = document.querySelector("#COLOR_RED");
+value.textContent = NUM.value;
+NUM.addEventListener("input", (event)=>{
+    value.textContent = event.target.value;
+})
